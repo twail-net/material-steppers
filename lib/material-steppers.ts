@@ -248,7 +248,8 @@ angular.module('mdSteppers', ['ngMaterial'])
                 vertical: '<?mdVertical',
                 mobileStepText: '<?mdMobileStepText',
                 labelStep: '@?mdLabelStep',
-                labelOf: '@?mdLabelOf'
+                labelOf: '@?mdLabelOf',
+                framedSteppersHeader: '<?mdFramedSteppersHeader'
             },
             bindToController: true,
             controller: StepperCtrl,

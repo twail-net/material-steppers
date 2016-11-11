@@ -6,7 +6,7 @@
     'md-steppers-has-feedback': stepper.hasFeedback
     }">
     <div class="md-steppers-header-region">
-        <md-steppers-header class="md-steppers-header md-steppers-horizontal md-whiteframe-1dp">
+        <md-steppers-header class="md-steppers-header md-steppers-horizontal" ng-class="{ 'md-whiteframe-1dp': framedSteppersHeader }">
             <button class="md-stepper-indicator" ng-repeat="(stepNumber, $step) in stepper.steps track by $index" ng-class="{
                 'md-active': stepNumber === stepper.currentStep,
                 'md-completed': stepper.isCompleted(stepNumber),
